@@ -1,3 +1,25 @@
 <!-- your html code here -->
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
-<p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p>
+ <!-- Sección con imagen de fondo y tagline -->
+ <div
+ class="d-flex flex-column justify-content-center align-items-center text-center"
+ style="background-image: url('https://hips.hearstapps.com/ellees.h-cdn.co/assets/16/42/4000x2000/landscape-1476874559-hignyc.jpg?resize=1200:*');
+        height: 400px;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;"
+>
+ <!-- Contenedor para el h1 con fondo blanco -->
+ <div class="w-100 p-3 mx-3" style="background: rgba(255, 255, 255, 0.9);"> <!-- Fondo blanco y padding. Jugando con el 0.9, haremos que sea más transparente o menos -->
+    <h1 class="text-dark fw-bold" style="font-size: 8rem;">One Page Wonder</h1><!-- Texto grande y negro -->
+ </div>
+ 
+ <!-- Margen entre el h1 y el p -->
+ <div class="mt-3"></div> <!-- Agregar separación -->
+ 
+ <!-- Contenedor para el p con fondo blanco -->
+ <div class="w-100 p-3 mx-3" style="background: rgba(255, 255, 255, 0.9);"> <!-- Fondo blanco y padding. mx-5: Agrega un margen horizontal grande, separando el contenedor del borde derecho e izquierdo. -->
+     <p class="text-dark" style="font-size: 2rem;">Will Knock Your Socks Off</p> <!-- Texto más grande y negro -->
+ </div>
+</div>
+
